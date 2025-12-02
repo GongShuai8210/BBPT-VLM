@@ -11,7 +11,7 @@ from dataset_utils import load_all_dataset,dataset_dicts,load_qa_dataset,qa_dict
 from peft import LoraConfig
 from datasets import Dataset
 import os
-os.environ["HF_TOKEN"] = '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'
+os.environ["HF_TOKEN"] = 'Your own tokens'
 
 def parser_args():
     parser = argparse.ArgumentParser()
